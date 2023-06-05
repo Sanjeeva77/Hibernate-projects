@@ -26,6 +26,10 @@
 		<property name="show_sql">
 			true
 		</property>
+		<property name="format_sql">
+			true
+		</property>
+		
 		<mapping class="cgginterns.hibernate.Student"/>
 		
 		<mapping class="cgginterns.hibernate.Address"/>
@@ -38,9 +42,6 @@
 		
 		<mapping class="cgginterns.hibernate.map1.Question"/>
 		
-		<!--<mapping class="cgginterns.hibernate.map1.Brand"/>
-		
-		<mapping class="cgginterns.hibernate.map1.Product"/>-->
 		
 		<mapping class="cgginterns.hibernate.map2.Project"/>
 		
