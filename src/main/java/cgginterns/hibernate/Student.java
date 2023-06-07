@@ -27,7 +27,7 @@ public class Student {
 
 		@Override
 		public String toString() {
-			return "Student [id=" + id + ", name=" + name + ", city=" + city + "]";
+			return "Student [id=" + id + ", name=" + name + ", city=" + city + ", certi=" + certi + "]";
 		}
 
 		public int getId() {
@@ -61,6 +61,8 @@ public class Student {
 		public void setCerti(Certificate certi) {
 			this.certi = certi;
 		}
+		
+		
 		
 		
 		

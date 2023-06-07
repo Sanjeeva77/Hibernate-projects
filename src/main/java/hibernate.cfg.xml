@@ -21,7 +21,7 @@
 			org.hibernate.dialect.PostgreSQLDialect
 		</property>
 		<property name="hbm2ddl.auto">
-			create
+			update
 		</property>
 		<property name="show_sql">
 			true
@@ -46,6 +46,10 @@
 		<mapping class="cgginterns.hibernate.map2.Project"/>
 		
 		<mapping class="cgginterns.hibernate.map2.Employee"/>
+		
+		<mapping class="cgg.hibernate.studentmanagement.StudentManage"/>
+		
+		<mapping class="cgg.hibernate.studentmanagement.StudentMethods"/>
 		
 		
 		</session-factory>
